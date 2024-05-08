@@ -161,7 +161,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 function downloadFile() {
   // Define the file URL
-  var fileUrl = "./assets/resume/BEKKAM HARI KRISHNA.pdf";
+  var fileUrl = "./assets/resume/HARI KRISHNA RESUME.pdf";
   
   // Create an anchor element
   var anchor = document.createElement("a");
@@ -170,7 +170,7 @@ function downloadFile() {
   anchor.href = fileUrl;
   
   // Add the download attribute with the desired filename
-  anchor.download = "BEKKAM HARI KRISHNA";
+  anchor.download = "HARI KRISHNA RESUME";
   
   // Trigger a click event on the anchor element
   anchor.click();
